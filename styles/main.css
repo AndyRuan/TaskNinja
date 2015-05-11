@@ -147,3 +147,11 @@ a, a:hover, a:focus {
   width: 35px;
   margin-right: 5px;
 }
+
+
+
+
+
+.large-nav{
+	height: min-90px !important;
+}

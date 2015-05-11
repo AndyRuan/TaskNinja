@@ -1,0 +1,28 @@
+<div class="modal fade" id="postModal" ng-controller="TaskController">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="panel panel-warning title">
+				<div class="panel-heading title">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3 class="panel-title"> 发布你的出租(转卖)信息</h3>
+					
+				</div>
+				<div class="panel-body">
+				<form ng-submit="createTask()">
+				<input type="text" ng-model="task.title" class="form-control" placeholder=" Title"  required><br>
+
+				<textarea ng-model="task.description" class="form-control" placeholder="description of your tutor" required></textarea><br>
+
+				<input type="number" ng-model="task.total" class="form-control" placeholder="How much for the tutor One hour" required><br>
+
+				<input type="submit" value="发布" class="btn btn-info">
+			</form>
+				</div>
+				
+				
+				
+			</div>
+			
+		</div>
+	</div>
+</div>
